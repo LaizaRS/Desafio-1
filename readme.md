@@ -7,6 +7,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - HTML e CSS
 - Git e Github
 - Figma
+- JavaScript
+- Phosphoricon
 
 ##  Layout
 
@@ -14,5 +16,8 @@ Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figm
 
 <br>
 <p align="center">
-  <img alt="Desafio 1" src="img/#boraCodar - Desafio 1 (Community).png" width="80%">
+  <img alt="Desafio 1" src="img/capa.png" width="80%">
 </p>
+
+## Sobre
+os icones do phosphoricon substituíram as imagens fornecidas pelo projeto figma 
