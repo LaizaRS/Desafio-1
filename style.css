@@ -1,0 +1,121 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --width-superdaddy: 267px;
+  --height-superdaddy: 498px;
+  --width-img: 190px;
+  --height-img: 190px;
+  --imagem-nome-display: block;
+  --width-player-img: 190px;
+  --margin-bottom-controles: 20px;
+  --margin-top-imagem-nome-img: 54px;
+  --margin-top-controles: 35px;
+}
+
+
+
+.virado {
+  --width-superdaddy: 358px;
+  --height-superdaddy: 267px;
+  --width-img: 85px;
+  --height-img: 85px;
+  --imagem-nome-display: flex;
+  --width-player-img: 300px;
+  --margin-bottom-controles: 25px;
+  --margin-top-imagem-nome-img: 33px;
+ --margin-top-controles: 33px;
+ --imagem-nome-margin-right: 20px;
+}
+
+.menor {
+  --height-superdaddy: 200px;
+  --width-superdaddy: 358px;
+  --width-img: 85px;
+  --height-img: 85px;
+  --imagem-nome-display: flex;
+  --width-player-img: 300px;
+  --margin-bottom-controles: 25px;
+  --margin-top-imagem-nome-img: 33px;
+ --margin-top-controles: 33px;
+ --imagem-nome-margin-right: 20px;
+}
+
+body {
+  background-color: black;
+}
+
+.superdaddy {
+  background-color: #2A2141;
+  margin: auto;
+  width: var(--width-superdaddy);
+  height: var(--height-superdaddy);
+  border-radius: 10px;
+}
+
+.imagem-nome {
+
+  margin-bottom: 20px;
+  color: #E1E1E6;
+  display: var(--imagem-nome-display); 
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.imagem-nome img {
+  margin-top: var(--margin-top-imagem-nome-img);
+  margin-right:var(--imagem-nome-margin-right);
+  width: var(--width-img);
+  height: var(--height-img);
+}
+
+.imagem-nome div {
+  margin-top: 30px;
+}
+
+.imagem-nome h1 {
+  font-size: 24px;
+}
+
+.imagem-nome p {
+  font-size: 19px;
+  margin-right: 29px;
+}
+
+.controles {
+  margin: auto;
+  margin-top: var(--margin-top-controles);
+  margin-bottom: var(--margin-bottom-controles);
+  width: 190px;
+  display: flex;
+  font-size: 20px;
+  justify-content: space-between;
+  color: white;
+}
+
+.player {
+  color: #C4C4CC;
+}
+
+.player img {
+  width: var(--width-player-img);
+  display: block;
+  margin: auto;
+  margin-bottom: 5px;
+}
+
+.flexcontent  {
+  margin: auto;
+  width: var(--width-player-img);
+  display: flex;
+  justify-content: space-between;
+}
+
+
+.menor .player {
+  display: none;
+}
